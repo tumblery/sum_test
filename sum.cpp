@@ -1,7 +1,7 @@
-int main(int n){
+int sum(int n){
 	int res = 0;
-	for(int i = 0; i<n;i++){
-		res += (i+1);
-	}
+	int src = 1+n;
+
+	res = (1+n)*n/2 + n%2*(n+1)/2;
 	return res;
 }
